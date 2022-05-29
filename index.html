@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>replit</title>
+    <style>
+      .d-flex {
+        display: flex;
+      }
+      .container {
+        justify-content: space-around;
+        /* align-items: center; */
+        height: 300px;
+        width: 70%;
+        border: solid black 5px;
+        padding: 30px;
+        flex-direction: column;
+      }
+      body {
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main1 {
+        justify-content: space-around;
+      }
+      .main2 {
+        justify-content: center;
+      }
+
+      .box {
+        height: 70px;
+        width: 20%;
+        border: solid black 2px;
+      }
+      .item2 {
+      }
+    </style>
+  </head>
+
+  <body class="d-flex">
+    <div class="container d-flex">
+      <div class="main1 d-flex">
+        <div class="item1 box">item 1</div>
+        <div class="item2 box">item 2</div>
+      </div>
+      <div class="main2 d-flex">
+        <div class="item3 box">item 3</div>
+      </div>
+      <div class="main1 d-flex">
+        <div class="item4 box">item 4</div>
+        <div class="item5 box">item 5</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
